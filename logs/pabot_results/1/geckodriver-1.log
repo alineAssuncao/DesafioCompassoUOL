@@ -1,0 +1,23 @@
+1619312078224	geckodriver	INFO	Listening on 127.0.0.1:35521
+1619312079213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYIUssy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+
+(/usr/lib/firefox/firefox:147): GLib-GObject-CRITICAL **: 00:54:43.774: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:165): GLib-GObject-CRITICAL **: 00:54:43.959: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619312089128	Marionette	INFO	Listening on port 33023
+
+(/usr/lib/firefox/firefox:218): GLib-GObject-CRITICAL **: 00:54:49.163: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619312089261	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:219): GLib-GObject-CRITICAL **: 00:54:49.280: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619312111984	Marionette	INFO	Stopped listening on port 33023
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

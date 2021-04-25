@@ -1,0 +1,18 @@
+1619286667919	geckodriver	INFO	Listening on 127.0.0.1:40915
+1619286668926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0saddn"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+
+(/usr/lib/firefox/firefox:49): GLib-GObject-CRITICAL **: 17:51:10.121: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:67): GLib-GObject-CRITICAL **: 17:51:10.558: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:117): GLib-GObject-CRITICAL **: 17:51:13.120: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619286673345	Marionette	INFO	Listening on port 41495
+1619286673392	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619286692361	Marionette	INFO	Stopped listening on port 41495

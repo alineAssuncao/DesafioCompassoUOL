@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"rfLanguageServer.libraries": [
+			"BuiltIn-3.1.1",
+			"Collections-3.1.1",
+			"Screenshot-3.1.1",
+			"SeleniumLibrary-3.3.1"
+		   ]
+	}
+}
