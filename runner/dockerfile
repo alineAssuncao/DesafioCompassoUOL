@@ -4,7 +4,7 @@ FROM ubuntu
 # Passo 02: Mapear os volumes (diretórios do container) 
 # os testes (inputs) e os logs (outputs).
 VOLUME /opt/robotframework/logs
-VOLUME /opt/robotframework/tests
+VOLUME /opt/robotframework/project
 
 # Passo 03: Rodar os comandos que instalam tudo que é preciso para rodar o robot
 RUN apt-get update && apt-get install -y \
