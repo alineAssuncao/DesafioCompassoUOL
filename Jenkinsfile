@@ -1,10 +1,12 @@
 pipeline {
 
     agent any
+    
+    environment {
+    	caminho = '/home/robot/DesafioCompassoUOL'
+    }
   
     stages {
-  	
-	caminho = '/home/robot/DesafioCompassoUOL'
 	
 	    stage('Testes com Robot Framework') {
 	        steps {
