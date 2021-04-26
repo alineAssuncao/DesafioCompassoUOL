@@ -20,7 +20,7 @@ pipeline {
 		          step(
 			            [
 			              	$class : 'RobotPublisher',
-		 			outputPath : '${caminho}/logs',
+		 			outputPath : '/home/robot/DesafioCompassoUOL/logs',
 		 			passThreshold : 100,
 		 			unstableThreshold: 100,
 		 			otherFiles : "*.png"
