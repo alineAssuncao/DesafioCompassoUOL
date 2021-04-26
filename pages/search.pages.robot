@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Teste e validação da página com o resultadop da busca
+Documentation       Teste e validação da página com o resultado da busca
 Resource            ../components/search.components.robot
 
 *** Keywords ***
@@ -15,3 +15,4 @@ Valida o resultado da busca com sucesso
 Valida o resultado da busca com '${MSG_INEXISTENTE}'
     Wait Until Element Is Visible       ${ValidaProdutoInexistente}         timeout=${TIME_TO_WAIT}
     Page Should Contain Element         ${ValidaProdutoInexistente}
+    Capture Page Screenshot

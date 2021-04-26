@@ -2,7 +2,7 @@
 FROM ubuntu
 
 # Passo 02: Mapear os volumes (diretórios do container) 
-# os testes (inputs) e os logs (outputs).
+# os project (inputs) e os logs (outputs).
 VOLUME /opt/robotframework/logs
 VOLUME /opt/robotframework/project
 

@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Validaçã do produto e adição no carrinhop de compra
+Documentation       Validação do produto e adição no carrinho de compra
 Resource            ../components/product.components.robot
 
 *** Keywords ***

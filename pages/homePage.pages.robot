@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Acesso a home page e busca de produto especifico
+Documentation       Acesso a home page e busca por produto específico
 Resource            ../components/homePage.components.robot
 
 
