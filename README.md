@@ -45,4 +45,4 @@ System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","sandbox allow-scr
 
 ![6](https://user-images.githubusercontent.com/28988843/116152533-6eecb080-a6bc-11eb-8f59-0eda1278f3f0.png)
 
-Para mais informações ver o documento com a <a href="">Solução detalhada do projeto</a>.
+Para mais informações ver o documento com a <a href="https://github.com/alineAssuncao/DesafioCompassoUOL/blob/main/Solu%C3%A7%C3%A3o%20detalhada%20do%20projeto.pdf">Solução detalhada do projeto</a>.
