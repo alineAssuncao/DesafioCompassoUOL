@@ -41,4 +41,8 @@ System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","sandbox allow-scr
 
 - Acessar o job criado no Jenkins >> Construir agora e acompanhar os resultados.
 
+![5](https://user-images.githubusercontent.com/28988843/116152529-6dbb8380-a6bc-11eb-9dfe-2bf3e57b5565.png)
+
+![6](https://user-images.githubusercontent.com/28988843/116152533-6eecb080-a6bc-11eb-8f59-0eda1278f3f0.png)
+
 Para mais informações ver o documento com a <a href="">Solução detalhada do projeto</a>.
