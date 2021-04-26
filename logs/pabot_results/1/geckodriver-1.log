@@ -1,5 +1,5 @@
-1619435093839	geckodriver	INFO	Listening on 127.0.0.1:42727
-1619435094851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelsa7q6"
+1619452532375	geckodriver	INFO	Listening on 127.0.0.1:36889
+1619452533390	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRAnNHf"
 *** You are running in headless mode.
 [GFX1-]: glxtest: libpci missing
 [GFX1-]: glxtest: libEGL missing
@@ -7,12 +7,14 @@
 [GFX1-]: glxtest: libEGL missing
 [GFX1-]: No GPUs detected via PCI
 
-(/usr/lib/firefox/firefox:154): GLib-GObject-CRITICAL **: 11:04:58.801: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:155): GLib-GObject-CRITICAL **: 15:55:36.705: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 
-(/usr/lib/firefox/firefox:172): GLib-GObject-CRITICAL **: 11:04:59.286: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:173): GLib-GObject-CRITICAL **: 15:55:36.813: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619452539809	Marionette	INFO	Listening on port 44331
 
-(/usr/lib/firefox/firefox:213): GLib-GObject-CRITICAL **: 11:05:01.459: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1619435103197	Marionette	INFO	Listening on port 37569
-1619435103352	Marionette	WARN	TLS certificate errors will be ignored for this session
-1619435125794	Marionette	INFO	Stopped listening on port 37569
+(/usr/lib/firefox/firefox:245): GLib-GObject-CRITICAL **: 15:55:39.960: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:243): GLib-GObject-CRITICAL **: 15:55:39.972: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619452540071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619452557908	Marionette	INFO	Stopped listening on port 44331
