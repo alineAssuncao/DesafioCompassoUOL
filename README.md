@@ -33,13 +33,13 @@ $ docker build -t robot ./runner/
 
 ![4](https://user-images.githubusercontent.com/28988843/116151764-6a73c800-a6bb-11eb-897a-84f4655fbcaa.png)
 
-- No Jenkins acessar >> Gerenciar Kenkins >> Console de script e executar o comando;
+- No Jenkins acessar >> Gerenciar Jenkins >> Console de script e executar o comando;
 ```
 System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","sandbox allow-scripts; default-src 'none'; img-src 'self' data: ; style-src 'self' 'unsafe-inline' data: ; script-src 'self' 'unsafe-inline' 'unsafe-eval' ;")
 ```
 ![3](https://user-images.githubusercontent.com/28988843/116151838-82e3e280-a6bb-11eb-98cc-0ebac8908209.png)
 
-- Acessar o job criado no Jenkins >> Construir agora e acompanhar os resultados.
+- No Jenkins >> acessar o job criado >> "Construir agora" e acompanhar os resultados.
 
 ![5](https://user-images.githubusercontent.com/28988843/116152529-6dbb8380-a6bc-11eb-9dfe-2bf3e57b5565.png)
 
