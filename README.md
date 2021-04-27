@@ -19,9 +19,9 @@
 $ git clone https://github.com/alineAssuncao/DesafioCompassoUOL.git
 ```
 
-- No terminal abrir a pasta onde foi clonado o repositório, como no exemplo;
+- No terminal abrir a pasta onde foi clonado o repositório;
 ```
-$ cd /meu_caminho/DesafioCompassoUOL
+$ cd /home/robot/DesafioCompassoUOL
 ```
 
 - Rodar o comando com privilégios de root para que o container docker seja criado e aguardar finalizar com sucesso;
@@ -29,7 +29,7 @@ $ cd /meu_caminho/DesafioCompassoUOL
 $ docker build -t robot ./runner/
 ```
 
-- Criar um job no Jenkins utilizando o <a href="https://imasters.com.br/back-end/pipeline-como-codigo-no-jenkins">Jenkinsfile</a> do projeto e alterar o caminho para a pasta onde está o projeto.
+- Criar um job no Jenkins utilizando o <a href="https://github.com/alineAssuncao/DesafioCompassoUOL/blob/main/Jenkinsfile">Jenkinsfile</a> do projeto e alterar o caminho para a pasta local onde está o clone do repositório.
 
 ![4](https://user-images.githubusercontent.com/28988843/116151764-6a73c800-a6bb-11eb-897a-84f4655fbcaa.png)
 
@@ -39,7 +39,7 @@ System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","sandbox allow-scr
 ```
 ![3](https://user-images.githubusercontent.com/28988843/116151838-82e3e280-a6bb-11eb-98cc-0ebac8908209.png)
 
-- No Jenkins >> acessar o job criado >> "Construir agora" e acompanhar os resultados.
+- No Jenkins >> acessar o job criado >> clicar em "Construir agora" e acompanhar os resultados.
 
 ![5](https://user-images.githubusercontent.com/28988843/116152529-6dbb8380-a6bc-11eb-9dfe-2bf3e57b5565.png)
 
